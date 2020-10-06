@@ -15,7 +15,7 @@ csvFileRequest=${12}
 assignRoleApi=${13}
 
 # Generating x-authenticated-token
-accessToken=$(curl -s -X POST https://${accessTokenUrl}/auth/realms/sunbird/protocol/openid-connect/token  -H 'content-type: application/x-www-form-urlencoded' --data-urlencode 'client_id=mobilelogins' --data-urlencode 'grant_type=password' --data-urlencode 'client_secret=d023d75b-1983-4974-ae83-a85998e1292c' --data-urlencode 'username=${userName}' | jq -r '.access_token') # X-AUTHENTICATED-TOKEN
+accessToken=$(curl -s -X POST https://${accessTokenUrl}/auth/realms/sunbird/protocol/openid-connect/token  -H 'content-type: application/x-www-form-urlencoded' --data-urlencode 'client_id=Clientid_login' --data-urlencode 'grant_type=password' --data-urlencode 'client_secret=abc123-abc1234-abc1234' --data-urlencode 'username=${userName}' | jq -r '.access_token') # X-AUTHENTICATED-TOKEN
 
 echo "accessToken = " ${accessToken}
 
