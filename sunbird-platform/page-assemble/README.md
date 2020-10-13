@@ -6,4 +6,4 @@ Run load test scenario script with necessary arguments:
 
 e.g.
 
-./run_scenario.sh ~/apache-jmeter-5.2.1/ 'Jmeter_Slave1_IP,Jmeter_Slave2_IP,Jmeter_Slave3_IP,Jmeter_Slave4_IP' page-assemble page-assembleR1 5 1 5 "ABCDEFabcdef012345" /mount/data/benchmark/sunbird-perf-tests/sunbird-platform/page-assemble/host.csv /mount/data/benchmark/sunbird-perf-tests/sunbird-platform/page-assemble/dialcodes.csv /api/data/v1/page/assemble 
+./run_scenario.sh ~/apache-jmeter-5.3/ 'Jmeter_Slave1_IP,Jmeter_Slave2_IP,Jmeter_Slave3_IP,Jmeter_Slave4_IP' page-assemble page-assembleR1 5 1 5 "ABCDEFabcdef012345" /mount/data/benchmark/sunbird-perf-tests/sunbird-platform/page-assemble/host.csv /mount/data/benchmark/sunbird-perf-tests/sunbird-platform/page-assemble/dialcodes.csv /api/data/v1/page/assemble 
