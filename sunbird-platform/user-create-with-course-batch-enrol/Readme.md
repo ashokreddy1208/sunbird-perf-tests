@@ -30,7 +30,7 @@
 
  - Example:
 
-> ./run_scenario.sh ~/apache-jmeter-5.1.1 '127.0.0.1' user-create-with-course-batch-enrol modifieds_t_1 50 1 1 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJlMDRkNzJkMWNiZDg0MTEyOTBkNGFiZWM3NDU5YTFlYiJ9.bThu42m1nPTMikbYGywqBqQYUihm_l1HsmKMREMuSdM token ~/sunbird-perf-tests/sunbird-platform/user-create-with-course-batch-enrol/user-create-test-data.csv ~/sunbird-perf-tests/sunbird-platform/user-create-with-course-batch-enrol/host.csv KP_FT_1564394114456 0128155669117419523 '/api/user/v1/create' '/api/course/v1/enrol'
+> ./run_scenario.sh /mount/data/benchmark/apache-jmeter-5.3 '127.0.0.1' user-create-with-course-batch-enrol modifieds_t_1 50 1 1 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJlMDRkNzJkMWNiZDg0MTEyOTBkNGFiZWM3NDU5YTFlYiJ9.bThu42m1nPTMikbYGywqBqQYUihm_l1HsmKMREMuSdM token ~/sunbird-perf-tests/sunbird-platform/user-create-with-course-batch-enrol/user-create-test-data.csv ~/sunbird-perf-tests/sunbird-platform/user-create-with-course-batch-enrol/host.csv KP_FT_1564394114456 0128155669117419523 '/api/user/v1/create' '/api/course/v1/enrol'
 
 - API used Info:
            - for token creation: /auth/realms/sunbird/protocol/openid-connect/token
