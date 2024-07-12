@@ -1,5 +1,5 @@
 # sunbird-perf-tests
-Data preparation scripts, JMX files, JMeter scripts for performance testing
+Data preparation scripts, JMX files, JMeter scripts for performance testing.
 
 # Perf testing summary
 
